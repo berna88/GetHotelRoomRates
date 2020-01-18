@@ -1,6 +1,6 @@
 Bundle-Name: GetHotelRoomRates
 Bundle-SymbolicName: com.consistent.hotelRoomRates
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.4
 Liferay-Configuration-Path: /configuration
 -metatype: *
 Import-Package: *;resolution:=optional

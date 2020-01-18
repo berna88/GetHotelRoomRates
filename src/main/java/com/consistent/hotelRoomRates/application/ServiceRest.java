@@ -17,7 +17,7 @@ import com.liferay.portal.kernel.exception.PortalException;
 import com.liferay.portal.kernel.log.Log;
 import com.liferay.portal.kernel.log.LogFactoryUtil;
 
-@Path("/services/posadas")
+@Path("/services/posadas-rate")
 public class ServiceRest extends Portal{
 	
 	private static final Log log = LogFactoryUtil.getLog(ServiceRest.class);

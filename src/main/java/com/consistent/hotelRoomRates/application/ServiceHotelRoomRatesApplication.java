@@ -11,7 +11,7 @@ import org.osgi.service.component.annotations.Component;
 /**
  * @author bernardohernadez
  */
-@ApplicationPath("/rate")
+@ApplicationPath("/serv-rate")
 @Component(immediate = true, 	service = Application.class
 )
 public class ServiceHotelRoomRatesApplication extends Application {

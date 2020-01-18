@@ -18,7 +18,7 @@ import com.liferay.portal.kernel.log.LogFactoryUtil;
 
 @Component(
 		immediate=true,
-		configurationPid = "com.consistent.rate.configuration.Otherconfig",
+		configurationPid = "com.consistent.hotelRoomRates.configuration.Otherconfig",
 		configurationPolicy = ConfigurationPolicy.OPTIONAL,
 		property={"jaxrs.application=true"})
 

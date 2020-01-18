@@ -6,7 +6,7 @@ import com.liferay.portal.configuration.metatype.annotations.ExtendedObjectClass
 import aQute.bnd.annotation.metatype.Meta;
 
 @ExtendedObjectClassDefinition(category = "Posadas", scope = ExtendedObjectClassDefinition.Scope.SYSTEM)
-@Meta.OCD( localization = "content/Language",id = "com.consistent.rate.configuration.Otherconfig",name = "Service Hotel Room Rates Configuration")
+@Meta.OCD( localization = "content/Language",id = "com.consistent.hotelRoomRates.configuration.Otherconfig",name = "Service Hotel and Rates")
 public interface Otherconfig {
 	@Meta.AD(required = false,description = "Get web content folder id")
     public Long folderId();
